@@ -1,5 +1,6 @@
 # Health-Buddy
 “A simple wellness web app to practice healthy habits: guided breathing, yoga poses, dance movement, and water intake tracking. Built with HTML, CSS, and Vanilla JavaScript.”
+
 About the Project->
 Health is Wealth is a simple wellness web application built using HTML, CSS, and Vanilla JavaScript.
 The app helps users practice small healthy habits such as breathing exercises, yoga poses, drinking water, and light physical activity through dance.
