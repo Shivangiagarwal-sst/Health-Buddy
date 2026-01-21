@@ -1,1 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Health is Wealth</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body id="mainBody">
 
+<div id="balloon-container"></div>
+
+<div class="container">
+<div id="nav-area" style="display: none;">
+<button class="back-btn" id="goHomeBtn">← Back to the home page</button>
+</div>
+
+<div id="section-home" class="section active">
+<header>
+<h1 class="main-title">Your Health is Your Greatest Fortune</h1>
+</header>
+<div class="menu-grid">
+<div class="menu-card" id="btn-breath"><span>🌬️</span><h3>Breathing</h3></div>
+<div class="menu-card" id="btn-dance"><span>🕺</span><h3>Dance</h3></div>
+<div class="menu-card" id="btn-yoga"><span>🧘</span><h3>Yoga</h3></div>
+<div class="menu-card" id="btn-water"><span>💧</span><h3>Water</h3></div>
+</div>
+</div>
+
+<div id="section-breathing" class="section">
+<div class="breath-container" id="breath-box">
+<div id="breath-status">GET READY</div>
+<div class="breath-circle"></div>
+</div>
+<button class="back-btn" id="breath-toggle">Start Session</button>
+</div>
+
+<div id="section-dance" class="section">
+<div class="sub-grid">
+<div class="item-card" id="dance-chill"><h3>Smooth Vibe</h3><p>Relaxed</p></div>
+</div>
+<h1 id="dance-text"></h1>
+<p style="margin-font-size:0.9rem; color:white;">Click "← Back, to the home page”. Click will stop the music now.</p>
+</div>
+
+<div id="section-yoga" class="section">
+<div class="sub-grid">
+<div class="item-card yoga-pose" data-name="Tree Pose" data-how="Stand tall, shift weight to one leg, place foot on inner thigh (avoid knee), hands at prayer, and focus gaze while breathing.">
+<img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=400">
+<h3>Tree Pose</h3>
+</div>
+<div class="item-card yoga-pose" data-name="Warrior II" data-how="Step feet wide, bend one knee 90 degrees, stretch arms parallel to the floor, and gaze over your front hand with a strong core.">
+<img src="https://images.unsplash.com/photo-1510894347713-fc3ed6fdf539?w=400">
+<h3>Warrior II</h3>
+</div>
+<div class="item-card yoga-pose" data-name="Cobra Pose" data-how="Lie, on the belly. Put the hands under the shoulders and inhale as you gently lift the chest. Keep the body on the ground.">
+<img src="https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?w=400">
+<h3>Cobra Pose</h3>
+</div>
+</div>
+</div>
+
+<div id="section-water" class="section">
+<h2>Liquid Wealth</h2>
+<div class="water-circle" id="waterCircle">
+<div class="water-segment"></div>
+<div class="water-segment"></div>
+<div class="water-segment"></div>
+<div class="water-segment"></div>
+<div class="water-segment"></div>
+<div class="water-segment"></div>
+<div class="water-segment"></div>
+<div class="water-segment"></div>
+</div>
+<h3 id="water-count">0 / 8 Glasses</h3>
+<button class="reset-btn" id="resetWaterBtn">Reset Tracker</button>
+</div>
+</div>
+
+<div id="exercise-mode">
+<h1 id="ex-title">Pose</h1>
+<h2 id="ex-timer">30</h2>
+<div id="ex-how-to"></div>
+<button class="back-btn" id="stopBtn">Stop</button>
+</div>
+
+<audio id="bg-audio" loop></audio>
+<script src="script.js"></script>
+</body>
+</html>
