@@ -35,6 +35,7 @@ JavaScript Logic & State Handling->
 • Timers implemented using setInterval and setTimeout  
 • Conditional rendering based on user interaction  
 • Centralized function to reset timers, audio, and UI state  
+• LocalStorage used to persist water tracker state across page reloads
 
 Technologies Used->
 
@@ -52,7 +53,6 @@ How to Run the Project->
 
 Known Limitations->
 
-• App state is not persisted after page refresh  
 • Requires internet connection for external images and audio  
 • Designed for modern desktop and mobile browsers  
 
